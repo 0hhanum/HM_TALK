@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="status-bar">
+    <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+        <span>09:15</span>
+    </div>
+    <div class="status-bar__column">
+        <i class="fas fa-beer"></i>
+        <span>97%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+    </div>
+</div>
+<header class="screen-header">
+    <h1 class="screen-header__title">Chats</h1>
+    <div class="screen-header__icons">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-phone"></i></span>
+        <span><i class="fas fa-headphones"></i></span>
+        <span><a href="settings.html"><i class="fas fa-cog"></i><span class="badge pizza_badge"></span></a></span>
+    </div>
+</header>
+
+<main class="main-screen main-screen--chats">
+    <a href="chat-welcome.html" class="chat-link">
+    <div class="user-component user-component__chats">
+        <div class="user-component__column">
+            <img src="https://plchldr.co/i/250x215?&bg=191970&text=" class="user-component__avatar user-component__avatar--ssm"/>
+            <div class="user-component__text">
+                <h4 class="user-component__title">HM</h4>
+                <h6 class="user-component__subtitle">환영합니다! 계정 정보를 확인하세요.</h6>
+            </div>
+        </div>
+        <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+            <span class="chat__badge badge">1</span>
+
+        </div>
+    </div>
+    </a>
+    <a href="chat-kingcho.html" class="chat-link">
+    <div class="user-component user-component__chats">
+        <div class="user-component__column">
+            <img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F3OBNp%2FbtqEh7AGNMD%2FGYV3dnGKCbvxa8nmx9AKpk%2Fimg.jpg" class="user-component__avatar user-component__avatar--ssm"/>
+            <div class="user-component__text">
+                <h4 class="user-component__title">킹초</h4>
+                <h6 class="user-component__subtitle">밥달라옹</h6>
+            </div>
+        </div>
+        <div class="user-component__column">
+            <span class="user-component__time">04:25</span>
+            <span class="chat__badge badge">8</span>
+        </div>
+    </div>
+    </a>
+
+</main>
+<nav class="nav">
+    <ul class="nav__ul">
+        <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+        <li class="nav__btn nav__btn-now"><a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">9</span><i class="fas fa-comments fa-2x"></i></a></li>
+        <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-pizza-slice fa-2x"></i></a></li>
+        <li class="nav__btn"><a class="nav__link" href="more.html"><i class="far fa-circle fa-2x"></i></a></li>
+    </ul>
+</nav>
+<div id="no-mobile">
+    <span>화면 배율을 휴대폰 사이즈로 조정해주세요.</span>
+</div>
+<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
